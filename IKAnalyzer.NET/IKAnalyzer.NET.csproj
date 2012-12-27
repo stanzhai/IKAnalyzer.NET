@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\AnalyzeContext.cs" />
-    <Compile Include="Core\ISegmenter.cs" />
+    <Compile Include="AnalyzeContext.cs" />
+    <Compile Include="CharacterUtil.cs" />
+    <Compile Include="CharType.cs" />
+    <Compile Include="ISegmenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Dictionary\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
