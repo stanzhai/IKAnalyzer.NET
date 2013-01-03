@@ -44,6 +44,9 @@
     <Compile Include="CharacterUtil.cs" />
     <Compile Include="CharType.cs" />
     <Compile Include="ISegmenter.cs" />
+    <Compile Include="Lexeme.cs" />
+    <Compile Include="LexemePath.cs" />
+    <Compile Include="LexemeType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
