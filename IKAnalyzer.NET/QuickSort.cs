@@ -5,7 +5,7 @@ using System.Text;
 
 namespace IKAnalyzer.NET
 {
-    class QuickSort
+    public class QuickSort<T> where T : IComparable<T>
     {
     }
 }
